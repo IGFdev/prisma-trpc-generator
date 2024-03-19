@@ -1,5 +1,5 @@
 {
-  "name": "prisma-trpc-generator",
+  "name": "lis-trpcGenerator",
   "version": "1.0.0",
   "description": "",
   "main": "dist/generator.js",
