@@ -1,0 +1,28 @@
+{
+  "name": "prisma-trpc-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/generator.js",
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "prisma-generator-types": "dist/bin.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/generator-helper": "^5.11.0"
+  },
+  "devDependencies": {
+    "@prisma/client": "^5.11.0",
+    "@types/node": "^20.11.29",
+    "prettier": "^3.2.5",
+    "prisma": "^5.11.0",
+    "typescript": "^5.4.2"
+  }
+}
